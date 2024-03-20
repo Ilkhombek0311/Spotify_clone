@@ -1,10 +1,56 @@
-body {
+
+  body {
+
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: #fff;
+
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 100vh;
+    display: flex;
+    background-color: #000; /* цвет фона */
   }
+  
+  .rounded-square {
+    min-width: 350px; /* ширина квадрата */
+    min-height: 115px; /* высота квадрата */
+    background-color: rgb(19, 18, 18); /* цвет фона */
+    border-radius: 8px; /* радиус скругления углов */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    color: white; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    font-weight: lighter; /* более легкий шрифт */  
+    margin-top: -30px;
+    margin-left: -200px; /* сдвигаем текст влево на 150px */
+    text-decoration: none;
+  }
+  
+  .text1 {
+    color: white; /* цвет текста */
+    font-size: 20px; /* размер шрифта */
+    font-weight: lighter; /* более легкий шрифт */  
+    margin-top: 40px; /* поднимаем текст немного выше */
+    margin-left: -194px; /* сдвигаем текст влево на 120px */
+    text-decoration: none;
+  }
+  
+  .rounded-square1 {
+    min-width: 1160px; /* ширина квадрата */
+    min-height: 1200; /* высота квадрата */
+    background-color: rgb(19, 18, 18); /* цвет фона */
+    border-radius: 8px; /* радиус скругления углов */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 205px; /* сдвигаем квадрат влево на 50px */
+  }
+  
 
-.div{
 
-    color: aliceblue;
-}
